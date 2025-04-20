@@ -1,0 +1,57 @@
+
+section#title.gradient-background {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .container 
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+  }
+  
+  
+ 
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+    
+  }
+  .align-left {
+    float: left; /* This will float the image to the left */
+    margin-right: 10px; /* Optional: add some space on the right side */
+}
+.align
+{
+    float: left; /* This will float the image to the left */
+    margin-right:10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.button
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: aqua;
+}
+#footer
+{
+    background-color: bisque;
+    font-size: medium;
+}
